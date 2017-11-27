@@ -12,7 +12,11 @@ Environment variables to configure
 
 * AWS_SECRET_ACCESS_KEY
 
+* AWS_DEFAULT_REGION
+
 * S3_PATH
+
+See https://github.com/danilop/yas3fs for more options
 
 Volumes exported
 
