@@ -1,5 +1,4 @@
-FROM phusion/baseimage:0.9.18
-MAINTAINER Anatoly Bubenkov "bubenkoff@gmail.com"
+FROM debian:stretch
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -q && apt-get install -y python-pip fuse \
 	&& apt-get clean -y && rm -rf /var/lib/apt/lists/*
